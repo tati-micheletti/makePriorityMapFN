@@ -27,5 +27,8 @@ Esse mapa é um mapa relativo; as áreas mais escuras tem maior prioridade de tr
 O Mapa foi criado com a utilização do software aberto R (R Development Team, 2019). Para tal, for construído um pacote com a função `makePriorityMap`. É necessário, portanto, instalar o pacote e rodar a função. Esta função irá criar um objeto em R com o raster gerado, assim como um arquivo em `.tif` (raster) do mapa.
 
 ```{r instalar}
+#Primeiramente você deverá instalar o pacote `devtools`, seguido da instalação do presente pacote, e por último, a função para a geração do mapa: 
+install.packages("devtools")
+devtools::install_github("tati-micheletti/makePriorityMapFN")
 mapa <- makePriorityMap()
 ```
