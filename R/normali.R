@@ -1,5 +1,7 @@
 #' \code{makePriorityMapFN} normali
 #'
+#' @author Tati Micheletti (TRIADE)
+#'
 #' This functions normalizes relative rasters for better plotting
 #'
 #' @export

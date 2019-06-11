@@ -1,5 +1,7 @@
 #' \code{rankSpecies} rankSpecies
 #'
+#' @author Tati Micheletti (TRIADE)
+#'
 #' @description This functions creates the priority values for a bird species list.
 #'              The default uses values provided by CEMAVE/ICMBio specialists.
 #'              The list HAS to have all 11 species found in Fernando de Noronha and

@@ -30,3 +30,6 @@ spRank <- rankSpecies(species = c("Phaethon lepturus", "Phaethon aethereus", "Su
                       ranking = seq(11:1))
 }
 }
+\author{
+Tati Micheletti (TRIADE)
+}

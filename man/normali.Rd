@@ -10,10 +10,15 @@ normali(ras)
 \item{ras}{An \code{RasterLayer} object to be normalized.}
 }
 \description{
-This functions normalizes relative rasters for better plotting
+\code{makePriorityMapFN} normali
 }
 \examples{
 library("raster")
 ras <- raster::raster(ncol = 10, nrow = 10, val = runif(100, 0, 10))
 rasNorm <- normali(ras)
+}
+\author{
+Tati Micheletti (TRIADE)
+
+This functions normalizes relative rasters for better plotting
 }

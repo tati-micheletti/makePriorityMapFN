@@ -1,5 +1,7 @@
 #' \code{makePriorityMapFN} makePriorityMap
 #'
+#' @author Tati Micheletti (TRIADE)
+#'
 #' @description This functions creates the priority map for cat management in
 #'              Fernando de Noronha. It downloads all needed data and creates
 #'              a raster object and saves it in the home directory

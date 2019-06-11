@@ -34,3 +34,6 @@ This functions creates the priority map for cat management in
 mapa <- makePriorityMap()
 }
 }
+\author{
+Tati Micheletti (TRIADE)
+}
