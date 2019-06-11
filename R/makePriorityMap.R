@@ -22,7 +22,7 @@
 #'
 #' @importFrom raster getValues setValues rasterize crop writeRaster
 #' @importFrom rgeos gUnaryUnion gBuffer
-#' @importFrom reproducible prepInputs postProcess Cache Require
+#' @importFrom reproducible prepInputs postProcess Require
 #' @importFrom data.table data.table setkey
 #' @importFrom magrittr %>%
 #' @importFrom ggplot2 ggplot geom_tile guides theme element_blank guide_legend aes
@@ -181,7 +181,7 @@ if (version != "2"){
 }
   # GIS manipulation
   focalMatrix <- raster::focalWeight(x = priorityArea, d = interpolationDistance)
-  focRas <- Cache(raster::focal, x = priorityArea, w = focalMatrix, fun = function(r){
+  focRas <- raster::focal(x = priorityArea, w = focalMatrix, fun = function(r){
     mean(r, na.rm = TRUE)
   })
 
