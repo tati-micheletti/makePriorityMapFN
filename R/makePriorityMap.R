@@ -44,7 +44,7 @@ makePriorityMap <- function(useNewerData = TRUE,
   # Load libraries
   message("Instalando bibliotecas necessárias... Recomendamos fazer update de todas as bibliotecas sugeridas.")
   # devtools::install_github("PredictiveEcology/reproducible@development")
-  requireNamespace(library("reproducible"))
+  library("reproducible")
   Require("raster")
   Require("rgeos")
   Require("ggplot2")
